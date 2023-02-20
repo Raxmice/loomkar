@@ -19,12 +19,12 @@ export default function ProductsCard(props) {
     const show = {"display":"block"}
 
     // const bgim = {backgroundImage:"url(img/products/sarees/"+props.img1+")"}
-    const [bgimg, setBgimg] = useState({backgroundImage:"url(http://localhost:3000/img/products/"+props.img1+")"}); 
+    const [bgimg, setBgimg] = useState({backgroundImage:"url(https://zws4gp-3000.preview.csb.app/img/products/"+props.img1+")"}); 
     let onbg = ()=>{
-      setBgimg({backgroundImage:"url(http://localhost:3000/img/products/"+props.img2+")"})
+      setBgimg({backgroundImage:"url(https://zws4gp-3000.preview.csb.app/img/products/"+props.img2+")"})
     }
     let offbg = ()=>{
-      setBgimg({backgroundImage:"url(http://localhost:3000/img/products/"+props.img1+")"})
+      setBgimg({backgroundImage:"url(https://zws4gp-3000.preview.csb.app/img/products/"+props.img1+")"})
     }
 
   return (

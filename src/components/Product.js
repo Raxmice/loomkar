@@ -31,7 +31,7 @@ export default function Product() {
       // console.log(totalprice)
 
   const getProduct = async ()=>{
-    const responce = await fetch(`http://localhost:5000/api/pro/findone/${params.id}`,{
+    const responce = await fetch(`https://jrq6em-5000.preview.csb.app/api/pro/findone/${params.id}`,{
       method:'GET',
       headers:{
         'content-Type':'application/json',

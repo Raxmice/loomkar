@@ -87,7 +87,7 @@ export default function SimilarProducts(props) {
   const [similardata, setSimilardata] = useState(trend)
 
   const getsimilar = async ()=>{
-    const responce = await fetch(`http://localhost:5000/api/pro/fatchalltype/${similar}`,{
+    const responce = await fetch(`https://jrq6em-5000.preview.csb.app/api/pro/fatchalltype/${similar}`,{
       method:'GET',
       headers:{
         'content-Type':'application/json',
