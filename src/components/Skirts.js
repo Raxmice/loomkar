@@ -20,7 +20,7 @@ export default function Skirts() {
 
   //get all notes
   const getallproducts = async ()=>{
-    const responce = await fetch(`http://localhost:5000/api/pro/fatchallproduct/:${currentpage}/:skirt`,{
+    const responce = await fetch(`https://jrq6em-5000.preview.csb.app/api/pro/fatchallproduct/:${currentpage}/:skirt`,{
       method:'GET',
       headers:{
         'content-Type':'application/json',
