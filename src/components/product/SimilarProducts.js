@@ -131,9 +131,9 @@ useEffect(()=>{
                     <div className='row'>
                         <div className='col-md-6'>
                             <div className='row'>
-                                <div className='col-md-5'><img className='w-100' src={`http://localhost:3000/img/products/sarees/107_720x.webp`} alt=''/></div>
+                                <div className='col-md-5'><img className='w-100' src={`https://loomkar-9zv7275zh-raxmice.vercel.app/img/products/sarees/107_720x.webp`} alt=''/></div>
                                 <div className='col-md-2 all-center'>+</div>
-                                <div className='col-md-5'><img className='w-100' src={`http://localhost:3000/img/products/sarees/140_720x.webp`} alt=''/></div>
+                                <div className='col-md-5'><img className='w-100' src={`https://loomkar-9zv7275zh-raxmice.vercel.app/img/products/sarees/140_720x.webp`} alt=''/></div>
                             </div>
                         </div>
                         <div className='col-md-6'>

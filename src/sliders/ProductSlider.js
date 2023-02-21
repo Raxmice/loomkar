@@ -43,7 +43,7 @@ export default function ProductSlider(props) {
     {
         product.map((element)=>{
           return <SwiperSlide key={element}>
-            <ImgCard img={`http://localhost:3000/img/products/${element}`} setImg={props.setImg}/>
+            <ImgCard img={`https://loomkar-9zv7275zh-raxmice.vercel.app//img/products/${element}`} setImg={props.setImg}/>
           </SwiperSlide>
         })
       }
