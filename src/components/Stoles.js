@@ -20,7 +20,7 @@ export default function Stoles() {
   
     //get all notes
     const getallproducts = async ()=>{
-      const responce = await fetch(`https://jrq6em-5000.preview.csb.app/api/pro/fatchallproduct/:${currentpage}/:stole`,{
+      const responce = await fetch(`https://loomkar-bk.vercel.app/api/pro/fatchallproduct/:${currentpage}/:stole`,{
         method:'GET',
         headers:{
           'content-Type':'application/json',
